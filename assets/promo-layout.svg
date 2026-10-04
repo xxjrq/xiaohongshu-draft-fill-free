@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <image href="promo-visual.png" x="0" y="0" width="1600" height="900" preserveAspectRatio="xMidYMid slice"/>
+  <defs><linearGradient id="paper" x1="0" x2="1"><stop stop-color="#f9f5ec"/><stop offset=".75" stop-color="#f9f5ec" stop-opacity=".95"/><stop offset="1" stop-color="#f9f5ec" stop-opacity="0"/></linearGradient></defs>
+  <rect width="900" height="900" fill="url(#paper)"/>
+  <g font-family="PingFang SC, Arial, sans-serif" fill="#e9564c">
+    <text x="96" y="140" font-size="25" font-weight="600" letter-spacing="2">免费开源 · EASY SKILLS</text>
+    <rect x="96" y="160" width="340" height="3"/>
+    <text x="96" y="290" font-size="86" font-weight="800">小红书图文</text>
+    <text x="96" y="390" font-size="86" font-weight="800">草稿填写</text>
+    <text x="96" y="465" font-size="35" font-weight="600">xiaohongshu-draft-fill-free</text>
+  </g>
+  <g font-family="PingFang SC, Arial, sans-serif" fill="#596367"><text x="96" y="530" font-size="27">已定稿内容，一键填入草稿</text><text x="96" y="575" font-size="27">停在发布前，清楚回报缺项</text><text x="96" y="810" font-size="23">一件事，一个好用的 Skill</text></g>
+</svg>

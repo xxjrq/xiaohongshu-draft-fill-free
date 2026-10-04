@@ -1,0 +1,60 @@
+{
+  "fixture_notice": "离线页面资料模拟，仅用于自测；不是在线采集或真实账号操作记录。",
+  "authorization": "用户确认图片拥有使用授权，并授权填写草稿但不发布。",
+  "browserId": "example-user-selected-browser",
+  "account_confirmation": "已确认是用户本人指定的小红书账号",
+  "title": "周末咖啡馆记录",
+  "body": "把午后的光和一杯拿铁留在这里。",
+  "images": [
+    "fixtures/authorized-photo-01.jpg",
+    "fixtures/authorized-photo-02.jpg"
+  ],
+  "offline_page_evidence": {
+    "notice": "离线模拟证据，仅用于验证回执字段，不代表线上页面操作。",
+    "upload_response": {
+      "accepted": ["fixtures/authorized-photo-01.jpg", "fixtures/authorized-photo-02.jpg"],
+      "count": 2
+    },
+    "visible_thumbnails": [
+      {"file": "fixtures/authorized-photo-01.jpg", "visible": true},
+      {"file": "fixtures/authorized-photo-02.jpg", "visible": true}
+    ],
+    "visible_field_readback": {
+      "title": "周末咖啡馆记录",
+      "body": "把午后的光和一杯拿铁留在这里。"
+    },
+    "publish_clicked": false
+  },
+  "expected_receipt": {
+    "status": "模拟已填写，未执行线上填写；预期停在发布前",
+    "filled_fields": [
+      "图片",
+      "标题",
+      "正文"
+    ],
+    "missing_fields": [
+      "话题未提供，未填写（可选）",
+      "地点未提供，未填写（可选）"
+    ],
+    "sources": {
+      "images": [
+        {
+          "field": "图片 1",
+          "source": "fixtures/authorized-photo-01.jpg（离线 fixture 中用户确认已授权的本地图片）"
+        },
+        {
+          "field": "图片 2",
+          "source": "fixtures/authorized-photo-02.jpg（离线 fixture 中用户确认已授权的本地图片）"
+        }
+      ],
+      "title": {
+        "source": "fixtures/success-input.json 的 title（用户定稿文本）"
+      },
+      "body": {
+        "source": "fixtures/success-input.json 的 body（用户定稿文本）"
+      }
+    },
+    "evaluation_mode": "离线预期合同；上传响应、可见缩略图与字段回读均为模拟证据，未执行浏览器填写",
+    "receipt_verified_online": false
+  }
+}

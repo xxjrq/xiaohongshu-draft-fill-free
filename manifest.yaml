@@ -1,0 +1,31 @@
+name: xiaohongshu-draft-fill-free
+slug: xiaohongshu-draft-fill-free
+display_name: 小红书图文草稿填写
+description: 在用户指定且已授权的 Easy WebBridge 浏览器中，将本地授权图片、定稿标题和正文填写到小红书图文草稿表单，返回已填字段、真实来源、缺项与停在发布前的状态。适用于已有成稿的单篇图文；账号不明、素材缺失、验证、风控或页面变化即停止，不发布、不采集、不编造。
+version: 1.0.0
+repository: https://github.com/xxjrq/xiaohongshu-draft-fill-free
+license: MIT
+icon: icon-512.png
+tags:
+  - 小红书
+  - 图文草稿
+  - 浏览器自动化
+  - 内容运营
+  - Easy WebBridge
+trigger_words:
+  - 填写小红书草稿
+  - 上传图文到小红书草稿
+  - 小红书图文发布前填写
+interface:
+  display_name: "小红书图文草稿填写"
+  short_description: "把已定稿图文填入指定账号草稿，停在发布前并回报缺项"
+  default_prompt: "使用 $xiaohongshu-draft-fill-free 将我已授权的图片、定稿标题和正文填入指定 browserId 的图文草稿，停在发布前并回报真实已填字段与所有未填字段；不补造话题或地点。"
+  icon_small: "./icon-512.png"
+  icon_large: "./icon-512.png"
+self_test: bash scripts/self-test.sh
+seo:
+  title: 小红书图文草稿填写 Skill
+  keywords:
+    - 小红书草稿
+    - 图文填写
+    - Easy WebBridge

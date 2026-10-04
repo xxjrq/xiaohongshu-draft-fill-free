@@ -1,0 +1,8 @@
+interface:
+  display_name: "小红书图文草稿填写"
+  short_description: "把已定稿图文填入指定账号草稿，停在发布前并回报缺项"
+  default_prompt: "使用 $xiaohongshu-draft-fill-free 将我已授权的图片、定稿标题和正文填入指定 browserId 的图文草稿，停在发布前并回报真实已填字段与所有未填字段；不补造话题或地点。"
+  icon_small: "./icon-512.png"
+  icon_large: "./icon-512.png"
+policy:
+  allow_implicit_invocation: false

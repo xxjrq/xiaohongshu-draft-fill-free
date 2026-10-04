@@ -1,0 +1,23 @@
+{
+  "fixture_notice": "离线页面资料模拟，仅用于自测；不是在线采集或真实账号操作记录。",
+  "browserId": "example-user-selected-browser",
+  "account_confirmation": "未确认账号归属",
+  "title": "缺图的草稿",
+  "body": "这段正文已经定稿。",
+  "images": [],
+  "expected_receipt": {
+    "status": "已停止，未填写也未发布",
+    "filled_fields": [],
+    "missing_fields": [
+      "账号确认",
+      "授权图片",
+      "话题未提供，未填写（可选）",
+      "地点未提供，未填写（可选）"
+    ],
+    "blockers": [
+      "账号归属未确认；按顺序在访问页面前停止，尚未检查页面验证状态或图片素材"
+    ],
+    "evaluation_mode": "离线预期合同；首个阻断条件为账号归属未确认，未访问页面，因此不能报告登录验证",
+    "receipt_verified_online": false
+  }
+}
