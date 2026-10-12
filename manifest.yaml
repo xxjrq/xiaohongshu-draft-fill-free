@@ -2,7 +2,7 @@ name: xiaohongshu-draft-fill-free
 slug: xiaohongshu-draft-fill-free
 display_name: 小红书图文草稿填写
 description: 在用户指定且已授权的 Easy WebBridge 浏览器中，将本地授权图片、定稿标题和正文填写到小红书图文草稿表单，返回已填字段、真实来源、缺项与停在发布前的状态。适用于已有成稿的单篇图文；账号不明、素材缺失、验证、风控或页面变化即停止，不发布、不采集、不编造。
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/xxjrq/xiaohongshu-draft-fill-free
 license: MIT
 icon: icon-512.png
